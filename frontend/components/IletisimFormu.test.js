@@ -135,6 +135,7 @@ test('form gönderildiğinde girilen tüm değerler render ediliyor.', async () 
     const buton = screen.getByText(/gönder/i)
 
     userEvent.click(buton)
+    
 
 
 });
